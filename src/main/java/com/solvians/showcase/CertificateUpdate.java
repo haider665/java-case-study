@@ -102,16 +102,6 @@ public class CertificateUpdate implements Callable<String> {
             }
         }
 
-//        // 1 check digit
-//        int totalSum = isinValue.toString().chars().sum();
-//        if ((totalSum % 10) % 2 == 0) {
-//            // if the total sum is even append number
-//            isinValue.append(totalSum % 10);
-//        } else {
-//            // append letter
-//            isinValue.append((char) ('A' + (totalSum % 26)));
-//        }
-
         return isinValue.toString();
     }
 
